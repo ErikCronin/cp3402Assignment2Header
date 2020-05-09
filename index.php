@@ -3,9 +3,7 @@
 <?php include('header.php'); ?>
 
 <h1>Lorem Ipsum</h1>
-<p style="color: #f1f1f1">
-
-
+<p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies dui justo, ut ornare quam mollis a. Vivamus ac congue est. Mauris tincidunt eget nibh non sollicitudin. Integer maximus elit mi, vitae feugiat est posuere fermentum. Aenean posuere finibus ultricies. Sed sed faucibus tortor. Donec commodo imperdiet mi vitae lobortis. Sed sit amet magna quis libero iaculis pulvinar.
 
     Nulla facilisi. Morbi vitae tellus nec purus tristique tristique id vel magna. Integer aliquam mattis justo, ac euismod nisi porta ac. Proin blandit lobortis sem, ac malesuada ex finibus quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dignissim diam eu consectetur. Cras sagittis purus convallis odio malesuada suscipit. Praesent sodales turpis eu interdum bibendum. Suspendisse vitae tristique ipsum, eu consectetur odio. Nam in dignissim risus. Fusce cursus vel lacus a lacinia. Pellentesque suscipit rhoncus libero, sed aliquet massa. Sed sit amet libero ac lectus aliquam bibendum at sed nisi.

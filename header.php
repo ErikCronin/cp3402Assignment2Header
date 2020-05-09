@@ -5,23 +5,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <script src="https://kit.fontawesome.com/0a31d1e274.js"></script>
     <style type="text/css">
+        html, body{
+            margin:0;
+            padding:0;
+            color: #f1f1f1;
+            background-color: #272727;
+        }
         .buttoncss{
-            color: #fff;
+            color: inherit;
             font-size: 1vmax;
             border: none;
             text-decoration: none;
+            padding:0;
         }
         .buttoncss:hover{
-            color: #9a9a9a;
+            background-color: #424242;
+            color: inherit;
         }
         .hed{
-            color: #fff;
+            color: inherit;
             background-color: #191919;
+            padding-top: 0.5vmax;
+            padding-bottom: 0.5vmax;
+            margin-bottom: 1vmax;
         }
         .title{
             text-decoration: none;
-            color: #fff;
+            color: #f1f1f1;
             text-align: center;
+            padding-top: 1.5vmax;
+            padding-bottom: 1.5vmax;
         }
         .title:hover{
             color: #9a9a9a;
@@ -47,7 +60,6 @@
             position: absolute;
             background-color: #f1f1f1;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
         }
 
@@ -62,8 +74,6 @@
 
         .dropdown:hover .dropdown-content {display: block;}
 
-        .dropdown:hover {background-color: #3e8e41;}
-
         @media screen and (max-width: 600px){
             .hed{
                 display: none;
@@ -72,60 +82,68 @@
     </style>
 </head>
 
-<body style="background-color: #252525">
+<body>
     <nav>
         <div class="row title">
-            <h1 class="ten columns">
+            <h1 class="twelve columns">
                 <a href="index.php">
-                    <i class="fas fa-music title" style="font-size:6vmin; text-align: right; border: none"> Jazz Club Townsville</i>
+                    <i class="fas fa-music title" style="font-size:6vmin; border: none"> Jazz Club Townsville</i>
                 </a>
             </h1>
-            <button class="buttoncss two columns" style="background-color: #191919">Join Us</button>
+<!--            <button class="buttoncss two columns" style="background-color: #191919">Join Us</button>-->
         </div>
 
-        <div class="row hed">
-            <p class="one column"></p>
+        <div class="hed">
+            <div class="row">
+                <p class="one column"></p>
 
-            <button class="two columns" style="border: none">
-                <a href="index.php" class="buttoncss">Home</a>
-            </button>
+                <div class="buttoncss dropdown two columns">
+                    <button class="buttoncss">
+                        <a href="#" class="buttoncss">Home</a>
+                    </button>
+                </div>
 
-            <div class="dropdown two columns">
-                <button class="buttoncss">
-                    <a href="#" class="buttoncss">Photos</a>
-                </button>
-                <div class="dropdown-content buttoncss">
-                    <a href="#">2020 Photos</a>
-                    <a href="#">2019 Photos</a>
-                    <a href="#">2018 Photos</a>
+                <div class="buttoncss dropdown two columns">
+                    <button class="buttoncss">
+                        <a href="#" class="buttoncss">Photos</a>
+                    </button>
+                    <div class="dropdown-content buttoncss">
+                        <a href="#">2020 Photos</a>
+                        <a href="#">2019 Photos</a>
+                        <a href="#">2018 Photos</a>
+                    </div>
+                </div>
+
+                <div class="buttoncss dropdown two columns">
+                    <button class="buttoncss">
+                        <a href="#" class="buttoncss">Bands</a>
+                    </button>
+                    <div class="dropdown-content buttoncss">
+                        <a href="#">Big Band</a>
+                        <a href="#">Smooth</a>
+                    </div>
+                </div>
+
+                <div class="buttoncss dropdown two columns">
+                    <button class="buttoncss">
+                        <a href="#" class="buttoncss">Festival</a>
+                    </button>
+                </div>
+
+                <div class="buttoncss dropdown two columns">
+                    <button class="buttoncss">
+                        <a href="#" class="buttoncss">About</a>
+                    </button>
                 </div>
             </div>
 
-            <div class="dropdown two columns">
-                <button class="buttoncss">
-                    <a href="#" class="buttoncss">Bands</a>
-                </button>
-                <div class="dropdown-content buttoncss">
-                    <a href="#">Big Band</a>
-                    <a href="#">Smooth</a>
-                </div>
+            <div class="row " style="text-align: center">
+                <a href="https://facebook.com/events/s/jazz-club-opening-night-feat-3/2878385435515845/?ti=icl" target="_blank">
+                    <i class="fab fa-facebook-square logo" style="text-align: right;"></i>
+                </a>
+                <a href="mailto:townsvillejazz@icloud.com">
+                    <i class="fas fa-envelope-square logo" style="text-align: left;"></i>
+                </a>
             </div>
-
-            <button class="two columns" style="border: none">
-                <a href="#" class="buttoncss">Festival</a>
-            </button>
-
-            <button class="two columns" style="border: none">
-                <a href="#" class="buttoncss">About</a>
-            </button>
-        </div>
-
-        <div class="row hed" style="text-align: center">
-            <a href="https://facebook.com/events/s/jazz-club-opening-night-feat-3/2878385435515845/?ti=icl" target="_blank">
-                <i class="fab fa-facebook-square logo" style="text-align: right;"></i>
-            </a>
-            <a href="mailto:townsvillejazz@icloud.com">
-                <i class="fas fa-envelope-square logo" style="text-align: left;"></i>
-            </a>
         </div>
     </nav>
