@@ -33,7 +33,7 @@
             text-decoration: none;
             color: #f1f1f1;
             text-align: center;
-            padding-top: 1.5vmax;
+            padding-top: 2.5vmax;
             padding-bottom: 1.5vmax;
         }
         .title:hover{
@@ -77,6 +77,9 @@
         @media screen and (max-width: 600px){
             .hed{
                 display: none;
+            }
+            .title{
+                background-color: #191919;
             }
         }
     </style>
