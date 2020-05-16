@@ -4,12 +4,26 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <script src="https://kit.fontawesome.com/0a31d1e274.js"></script>
+
+    <!-- Magnific Popup Stuff -->
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <style type="text/css">
         html, body{
             margin:0;
             padding:0;
             color: #f1f1f1;
             background-color: #272727;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            max-width: 100%;
         }
         .buttoncss{
             color: inherit;
@@ -88,12 +102,12 @@
 <body>
     <nav>
         <div class="row title">
-            <h1 class="twelve columns">
+            <h1 class="ten columns">
                 <a href="index.php">
                     <i class="fas fa-music title" style="font-size:6vmin; border: none"> Jazz Club Townsville</i>
                 </a>
             </h1>
-<!--            <button class="buttoncss two columns" style="background-color: #191919">Join Us</button>-->
+            <button class="buttoncss two columns" style="background-color: #191919">Join Us</button>
         </div>
 
         <div class="hed">
@@ -108,10 +122,10 @@
 
                 <div class="buttoncss dropdown two columns">
                     <button class="buttoncss">
-                        <a href="#" class="buttoncss">Photos</a>
+                        <a href="photos.php" class="buttoncss">Photos</a>
                     </button>
                     <div class="dropdown-content buttoncss">
-                        <a href="#">2020 Photos</a>
+                        <a href="photos-2020.php">2020 Photos</a>
                         <a href="#">2019 Photos</a>
                         <a href="#">2018 Photos</a>
                     </div>
